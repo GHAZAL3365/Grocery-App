@@ -2,7 +2,7 @@ nav {
   display: flex;
   flex-direction: column;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-  padding: 1rem;
+  padding: 10px;
 }
 nav svg {
   width: 25px;
