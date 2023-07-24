@@ -1,0 +1,105 @@
+.footer2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.footer2 a {
+  color: #2f2f2f;
+}
+.footer2 p:hover {
+  color: var(--base-color);
+  cursor: pointer;
+}
+.footer2 .section1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 30px;
+}
+.footer2 .section1 div {
+  width: 15%;
+  min-width: 200px;
+}
+
+.section1 .desc_section {
+  width: 15%;
+  min-width: 200px;
+}
+
+.footer2 .desc_section img {
+  width: 200px;
+  margin-bottom: 10px;
+}
+.section1 .desc_section p {
+  font-size: 16px;
+  font-weight: 200;
+  color: #2f2f2f;
+  width: 100%;
+}
+.section1 .section {
+  padding-top: 20px;
+}
+.section1 .section h3 {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  width: 90%;
+  color: #424242;
+}
+
+.section1 .section .inputcontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 220px;
+  overflow: hidden;
+  border: 1px solid #e0e0e0;
+  padding: 5px;
+  margin: 10px 6px;
+}
+.section1 .icon1 svg,
+.section1 .icon2 svg {
+  width: 20px;
+  height: 20px;
+  color: #848484;
+}
+.section1 .icon2 svg {
+  color: var(--base-color);
+}
+.section .inputcontainer input {
+  width: 80%;
+  height: 30px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  font-weight: 200;
+  color: #424242;
+  margin-left: 5px;
+}
+
+/* footer section which had payent section */
+.footer2 .section2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 20px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.footer2 .section2 h3 {
+  font-size: 17px;
+  font-weight: 300;
+  width: 70%;
+  text-align: center;
+}
+.footer2 .section2 img {
+  cursor: pointer;
+  width: 300px;
+}

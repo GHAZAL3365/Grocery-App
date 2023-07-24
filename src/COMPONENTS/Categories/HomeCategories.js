@@ -9,21 +9,27 @@ function HomeCategories() {
   return (
     <div className="card-container">
       <div className="card">
-        <img src={img3} alt="card" />
+        <div className="card-img">
+          <img src={img3} alt="card" />
+        </div>
         <div className="card-content">
           <h2>Deliver at you doorstep</h2>
           <p>Shop vegtable now</p>
         </div>
       </div>
       <div className="card">
-        <img src={img1} alt="card" />
+        <div className="card-img">
+          <img src={img1} alt="card" />
+        </div>
         <div className="card-content">
           <h2>Deliver at you doorstep</h2>
           <p>Shop vegtable now</p>
         </div>
       </div>
       <div className="card">
-        <img src={img2} alt="card" />
+        <div className="card-img">
+          <img src={img2} alt="card" />
+        </div>
         <div className="card-content">
           <h2>Deliver at you doorstep</h2>
           <p>Shop vegtable now</p>
@@ -31,7 +37,9 @@ function HomeCategories() {
       </div>
 
       <div className="card">
-        <img src={img4} alt="card" />
+        <div className="card-img">
+          <img src={img4} alt="card" />
+        </div>
         <div className="card-content">
           <h2>Deliver at you doorstep</h2>
           <p>Shop vegtable now</p>
